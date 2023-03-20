@@ -1,0 +1,68 @@
+.dx-selectbox-container .dx-dropdowneditor-icon::before {
+  margin-left: 0;
+  margin-top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-image: url("../../assets/img/Icon.c6e6c5f.svg");
+  background-color: #666;
+  -webkit-mask-position: -199px -9px;
+  width: 10px;
+  height: 6px;
+}
+.dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon,
+.dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon {
+  background-color: #fff;
+}
+
+.dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered)
+  .dx-dropdowneditor-icon {
+  background-color: #fff;
+  border-color: transparent;
+}
+.dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon {
+  background-color: #fff !important;
+}
+
+.dx-dropdowneditor.dx-dropdowneditor-field-clickable .dx-texteditor-input {
+  cursor: text !important;
+}
+.dx-dropdowneditor-icon {
+  -webkit-mask-image: url(https://amisplatform.misacdn.net/apps/timesheet/static/img/Icon.c6e6c5f.svg) !important;
+  -moz-mask-image: url(https://amisplatform.misacdn.net/apps/timesheet/static/img/Icon.c6e6c5f.svg) !important;
+  -ms-mask-image: url(https://amisplatform.misacdn.net/apps/timesheet/static/img/Icon.c6e6c5f.svg) !important;
+  -o-mask-image: url(https://amisplatform.misacdn.net/apps/timesheet/static/img/Icon.c6e6c5f.svg) !important;
+  mask-image: url(https://amisplatform.misacdn.net/apps/timesheet/static/img/Icon.c6e6c5f.svg) !important;
+  background-color: #666 !important;
+}
+.dx-dropdowneditor-icon,
+.dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-position: -192px 5px;
+  -moz-mask-position: -192px 0;
+  -ms-mask-position: -192px 0;
+  -o-mask-position: -192px 0;
+  mask-position: -192px 0;
+  margin-right: 0;
+  -webkit-mask-repeat: no-repeat;
+  -moz-mask-repeat: no-repeat;
+  -ms-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.dx-dropdowneditor-icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  color: #333;
+  font: 18px/18px DXIcons;
+  width: 32px;
+  height: 100%;
+  text-align: center;
+  border-radius: 3px;
+}
+.dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon {
+  background-color: #666 !important;
+}

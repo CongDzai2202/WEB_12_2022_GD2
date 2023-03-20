@@ -1,0 +1,89 @@
+@import url(./layout/header.css);
+@import url(./layout/content.css);
+@import url(./base/icon.css);
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/tooltip.css);
+@import url(./base/dxdatebox.css);
+@import url(./base/dxselectbox.css);
+@import url(./base/paging.css);
+@import url(./base/popup.css);
+@import url(./base/toast.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  outline: none !important;
+  --primary-color: #ec5504;
+  --text-primary-color: #212121;
+  font-size: 14px;
+  font-family: Roboto fonts ;
+}
+:not(i):not([class*=icon]) {
+  font-family: Roboto fonts;
+}
+.m-l-8 {
+  margin-left: 8px;
+}
+.m-r-24 {
+  margin-right: 24px;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+.flex-direction{
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.c-g-8{
+  column-gap: 8px;
+}
+.c-g-16{
+  column-gap: 16px;
+}
+.c-g-24{
+  column-gap: 24px;
+}
+.c-g-22{
+  column-gap: 22px;
+}
+.p-8{
+  padding: 8px;
+}
+.m-b-8{
+  margin-bottom: 8px;
+}
+.p-b-0{
+  padding-bottom: 0;
+}
+@font-face {
+  font-family: Roboto fonts;
+  src: url("../assets/fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto italic;
+  src: url("../assets/fonts/roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: Roboto bold;
+  src: url("../assets/fonts/roboto/Roboto-Bold.ttf");
+}
+.header {
+  height: 56px;
+  width: 100%;
+}
+.content {
+  height: calc(100% - 56px);
+  width: 100%;
+  background-color: #eee;
+  padding: 16px 24px;
+}

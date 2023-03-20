@@ -1,0 +1,36 @@
+
+.dx-popup-content {
+  font-size: 14px !important;
+  font-family: Roboto fonts !important;
+  font-weight: 400 !important;
+  color: #fff;
+  background-color: #000;
+  border: unset !important;
+}
+.dx-tooltip-wrapper .dx-popup-content {
+  padding: 12px !important;
+}
+.paging .dx-button-content {
+  background-color: #fff;
+}
+.paging .dx-button-normal.dx-state-hover .dx-button-content {
+  background-color: #fff;
+}
+
+.dx-tooltip-wrapper.dx-popover-wrapper .dx-popover-arrow::after {
+  background-color: #2a2e41 !important;
+}
+
+.dx-tooltip-wrapper .dx-overlay-content {
+  max-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+  border: unset !important;
+  background-color: #2a2e41;
+  color: #333;
+  -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}

@@ -1,0 +1,84 @@
+.dx-overlay-shader {
+  pointer-events: auto;
+  background-color: rgba(27, 26, 26, 0.3);
+}
+.dx-popup-title.dx-toolbar {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 53px;
+  padding: 24px 24px 0 24px;
+}
+.dx-overlay-content .dx-popup-content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.m-popup-content {
+  height: calc(100% - 53px);
+  color: #212121;
+  font-weight: 4;
+  padding: 24px;
+}
+.m-popup-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+  background-color: #f2f2f2;
+}
+
+.dx-item.dx-toolbar-item.dx-toolbar-button {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.m-popup .dx-button-normal.dx-state-hover .dx-button-content {
+  background-color: rgb(198, 188, 218, 0.5);
+}
+.dx-state-active,
+.dx-state-focused {
+  border-color: #ddd !important;
+}
+
+.dx-popup-content .dx-state-active,
+.dx-popup-content .dx-state-focused {
+  border-color: #bbb !important;
+}
+.dx-button-mode-text.dx-state-hover {
+  background-color: transparent;
+}
+.dx-toolbar-after .dx-button-content {
+  width: 36px;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+}
+.m-popup .dx-toolbar-after .dx-button-normal.dx-state-hover .dx-button-content {
+  background-color: rgba(89, 92, 96, 0.1);
+}
+
+.dx-popup-title .dx-closebutton {
+  display: block;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.dx-button-mode-text.dx-state-hover {
+  background-color: #ccc;
+}
+.dx-popup-title .dx-toolbar-before {
+  display: block !important;
+  width: 120px !important;
+}
+.dx-popup-title .dx-toolbar-before .dx-toolbar-item-content >div {
+  font-weight: 700;
+  font-size: 20px !important;
+  width: 100%;
+}
+.dx-popup-title .dx-toolbar-before .dx-item .dx-toolbar-item .dx-toolbar-label{
+  width: 100%;
+}
+.dx-popup-title .dx-toolbar-before .dx-item-content {
+  width: 100%;
+  min-width: 120px;
+}

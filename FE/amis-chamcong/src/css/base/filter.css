@@ -1,0 +1,17 @@
+.p-b-8 {
+  padding-bottom: 8 !important;
+}
+.m-b-8{
+    margin-bottom: 8px;
+}
+.p-b-0 {
+    padding-bottom: 0;
+}
+.filterInput .input .dx-dropdowneditor-icon {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-repeat: no-repeat;
+  background-color: #666 !important;
+  -webkit-mask-position: -68px 4px;
+  -webkit-mask-image: url(@/assets/img/Icon.c6e6c5f.svg);
+}

@@ -1,0 +1,37 @@
+.dx-textbox:hover,
+.dx-textbox:focus,
+.dx-state-focused {
+  border-color: var(--primary-color) !important;
+}
+.dx-placeholder {
+  top: 1px;
+}
+.dx-texteditor.dx-editor-outlined.dx-state-focused {
+  border-color: var(--primary-color) !important;
+}
+.textbox-search{
+  padding-left: 28px;
+}
+.search-icon{
+  position: absolute;
+  left: 4px;
+}
+.dx-button-text {
+  font-weight: 700;
+}
+.dx-texteditor-input .dx-placeholder,
+.dx-widget input {
+  font-family: Roboto fonts;
+  display: flex;
+  align-items: center;
+}
+.text-box-320 .dx-texteditor-input-container {
+  width: 320px;
+}
+.dx-textarea {
+  height: 87px;
+}
+.data-dx_placeholder {
+  display: none;
+}
+
